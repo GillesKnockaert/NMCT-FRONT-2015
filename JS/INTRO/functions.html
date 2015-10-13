@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <button id="theButton" />
+
+    <script>
+
+        //document.addEventListener('DOMContentLoaded', init);
+        (function (){
+            "use strict";
+
+            var test = 4;
+
+
+        })();
+
+
+
+
+
+
+
+
+        function outerFunction(){
+            // window.outerFunction.a
+            var a = 3;
+
+            function innerFunction(){
+                // window.outerFunction.innerFunction
+                a = 4;
+
+                // window.outerFunction.innerFunction.b
+                var b = 6;
+            }
+
+        }
+
+
+
+
+
+
+
+
+        function demo(){
+            console.log(i);
+            console.log(test);
+            for(var i = 0 ; i < 10 ; i++){}
+
+            var test = "een test";
+        }
+
+        function demoJE(){
+            var i,
+                test;
+
+            console.log(i);
+            console.log(test);
+            for(i = 0 ; i < 10 ; i++){}
+
+            test = "een test";
+        }
+
+
+        var clickEvent = function(){
+            alert('test');
+        }
+
+        var element = document.querySelector("#theButton");
+        element.addEventListener("click", clickEvent());
+
+
+        // window.sum
+        function sum(param1, param2){
+            param1 + param2;
+        }
+
+        var result = sum(10,20,30,40);
+
+
+        var eenPersoon = {
+            name: "johan",
+            firstname: "vannieuwenhuyse"
+        };
+
+        function showName(){
+            alert(this.name);
+        }
+
+        showName.apply(eenPersoon);
+
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<form action="">
+    <input type="text"/><button id="theButton"></button></form>
+
+
+    <script>
+
+        function jQuery(selector){
+
+            if(selector.indexOf("#") === 0){
+                return document.getElementById(selector.substring(1));
+            }
+            else if(selector.indexOf(".") === 0){
+                return document.getElementsByClassName(selector.substring(1));
+            }
+
+        }
+
+        var $ =  jQuery;
+
+        document.querySelector("#");
+        document.querySelector(".");
+        document.querySelector("li[lang=nl]");
+
+        document.querySelectorAll(".");
+
+
+
+
+    </script>
+
+
+    <script>
+
+
+        var theButton = document.querySelector("#theButton");
+
+        // falsy: false, null, undefined
+
+        // truthy: true
+        if(theButton){
+
+        }
+
+        if(theButton !== null && theButton !== undefined && theButton !== false){}
+
+
+        function showData(data){
+
+            var bobTheHtmlBuilder = "<ul>";
+            for(var i = 0, l = data.length ; i < l ; i++) {
+                bobTheHtmlBuilder += "<li>data</li>"
+            }
+            var bobTheHtmlBuilder = "</ul>";
+
+        }
+
+
+
+    </script>
+
+</body>
+</html>

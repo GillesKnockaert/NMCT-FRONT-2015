@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "DemoCS.js",
+  "sourceRoot": "",
+  "sources": [
+    "DemoCS.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAGA;AAAA,MAAA;;EAAA,GAAA,GAAM,CAAA,SAAA,KAAA;WAAA,SAAC,CAAD,EAAG,CAAH;aAAS,CAAA,GAAE;IAAX;EAAA,CAAA,CAAA,CAAA,IAAA;;EACN,MAAA,GAAS,GAAA,CAAI,CAAJ,EAAM,CAAN;;EACT,IAAG,MAAA,GAAS,CAAZ;IACE,OAAO,CAAC,GAAR,CAAY,MAAZ,EADF;;AAFA"
+}
